@@ -7,6 +7,19 @@
   "newTask": {
     "taskName": "NAME",
     "taskDescription": "Description",
-    "status": "InProgress"
+    "project": "Редизайн карточки товара",
+    "priority": "Low",
+    "status": "InProgress",
+    "executor": "Александра Ветрова"
+  },
+  "fieldsForFillIn": {
+    "name": "Название",
+    "description": "Описание",
+    "project": "Проект",
+    "priority": "Приоритет",
+    "status": "Статус",
+    "executor": "Исполнитель",
+    "create": "Создать",
+    "update": "Обновить"
   }
 }
