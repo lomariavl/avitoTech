@@ -44,7 +44,7 @@ class MainPage(BasePage):
     def click_on_task(self, task):
         BaseElement(task, self.CURRENT_TASK.format(task)).click()
 
-    def change_description_and_update(self, status) -> None:
+    def change_status_and_update(self, status) -> None:
         BaseElement('Статус', self.CHECKLIST_LOCATOR.format('Статус')).click()
         BaseElement(status, self.STATUS.format(status)).click()
         BaseElement('Обновить', self.BUTTON_LOCATOR.format('Обновить')).click(blocking_locator=self.MENU_LOCATOR)

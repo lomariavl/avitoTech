@@ -7,3 +7,4 @@ py-selenium-auto-core==0.5.6
 py-selenium-auto==0.4.7
 
 webdriver-manager~=4.0.2
+pydantic==2.12.5

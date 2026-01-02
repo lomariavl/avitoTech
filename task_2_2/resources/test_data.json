@@ -1,0 +1,12 @@
+{
+  "existingTask": {
+    "taskName": "Реализация новой галереи изображений",
+    "taskDescription": "Реализация нового UI компонента с учетом гайдлайнов дизайн-системы. Детали будут уточнены в процессе разработки",
+    "executor": "Илья Романов"
+  },
+  "newTask": {
+    "taskName": "NAME",
+    "taskDescription": "Description",
+    "status": "InProgress"
+  }
+}
