@@ -6,15 +6,14 @@ from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 from task_2_2.utils.singleton_driver import SingletonDriver
+from task_2_2.resources.config import TIMEOUT
 
 
 class DriverUtils:
-    timeout: int = 10
-
     @staticmethod
     def get_driver_for_wait():
         driver = SingletonDriver.get_driver()
-        return WebDriverWait(driver, DriverUtils.timeout)
+        return WebDriverWait(driver, TIMEOUT)
 
     @staticmethod
     def is_element_presence(locator) -> bool:
